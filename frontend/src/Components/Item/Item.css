@@ -1,0 +1,49 @@
+.item {
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px; /* Space between elements */
+    padding: 15px;
+    border: 1px solid #ccc; /* Optional: Add a border */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+    text-align: center; /* Center-align text */
+    background: #fff;
+}
+
+.item img {
+    width: 100%; /* Ensure image fits its container */
+    height: auto;
+    border-radius: 8px;
+}
+
+.item h3 {
+    font-size: 18px; /* Adjust font size */
+    font-weight: 600;
+    margin: 0;
+    color: #333; /* Darker text color */
+}
+
+.item .price {
+    display: flex;
+    gap: 10px; /* Space between new and old prices */
+    font-size: 16px;
+    color: #666;
+}
+
+.item .price .new-price {
+    font-weight: bold;
+    color: #ff4141; /* Highlighted color for new price */
+}
+
+.item-price-old {
+    color: #8c8c8c;
+    font-size: 16px; /* Slightly smaller for old price */
+    font-weight: 500;
+    text-decoration: line-through;
+}
+.item:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}

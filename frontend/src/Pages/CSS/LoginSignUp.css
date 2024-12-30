@@ -1,0 +1,80 @@
+.loginsignup {
+    width: 100%;
+    height: 80vh;
+    background: #fce3fe;
+    display: flex;
+    justify-content: center; /* Center the container horizontally */
+    align-items: center; /* Center the container vertically */
+    padding-top: 100px;
+}
+
+.loginsignup-container {
+    width: 500px;
+    background: white;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto; /* Adjusts height based on content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow to the container */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+}
+
+.loginsignup-container h1 {
+    margin: 20px 0;
+    text-align: center; /* Centers the heading */
+}
+
+.loginsignup-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.loginsignup-fields input {
+    height: 50px; /* Adjusted input height */
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+    border-radius: 5px; /* Adds rounded corners */
+}
+
+.loginsignup-container button {
+    width: 100%; /* Full width of the container */
+    height: 60px; /* Adjust button height */
+    color: white;
+    background: #ff4141;
+    margin-top: 20px;
+    border: none;
+    font-size: 20px; /* Reduced font size */
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px; /* Optional: Adds rounded corners to button */
+}
+
+.loginsignup-login {
+    margin-top: 20px;
+    color: #5c5c5c;
+    font-size: 16px; /* Adjusted font size */
+    font-weight: 500;
+    text-align: center; /* Centers the login text */
+}
+
+.loginsignup-login span {
+    color: #ff4141;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.loginsignup-agree {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 10px; /* Reduced gap between checkbox and text */
+    color: #5c5c5c;
+    font-size: 16px; /* Adjusted font size */
+    font-weight: 500;
+}

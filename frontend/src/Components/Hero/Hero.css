@@ -1,0 +1,102 @@
+.hero {
+    height: calc(100vh - 80px); /* Adjust height to account for header (assumed 80px) */
+    background: linear-gradient(180deg, #fde1ff, #e1ffea 60%);
+    display: flex;
+    padding: 20px;
+}
+
+.hero-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 150px; /* Reduced padding for better balance */
+    line-height: 1.2; /* Slightly increased line spacing */
+}
+
+.hero-left h2 {
+    color: #090909;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.hero-left p {
+    color: #171717;
+    font-size: 80px; /* Adjusted for better scaling */
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.hero-left img {
+    width: 20%; /* Reduced width for cleaner appearance */
+}
+
+.hero-hand-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Reduced gap for better spacing */
+}
+
+.hero-latest-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 220px; /* Slightly increased width */
+    height: 60px; /* Reduced height for proportional look */
+    border-radius: 50px; /* Adjusted for smoother rounding */
+    margin-top: 20px;
+    background: #ff4141;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer; /* Added pointer cursor for button-like feel */
+    transition: background 0.3s ease; /* Smooth hover transition */
+}
+
+.hero-latest-btn:hover {
+    background: #e63b3b; /* Slightly darker red on hover */
+}
+
+.hero-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-right img {
+    width: 80%; /* Adjust image width to balance layout */
+    border-radius: 10px; /* Added subtle rounding for aesthetics */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow for depth */
+}
+
+
+/* Ensure page responsiveness */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        height: auto; /* Allow dynamic height */
+        padding: 10px;
+    }
+
+    .hero-left {
+        padding-left: 20px;
+        text-align: center; /* Center text for smaller screens */
+    }
+
+    .hero-left p {
+        font-size: 50px; /* Reduced size for smaller screens */
+    }
+
+    .hero-right img {
+        width: 90%; /* Adjust image size for mobile */
+    }
+
+    .hero-latest-btn {
+        width: 180px;
+        height: 50px;
+        font-size: 18px;
+    }
+}

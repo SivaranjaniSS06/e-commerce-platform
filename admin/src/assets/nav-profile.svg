@@ -1,0 +1,20 @@
+<svg width="600" height="150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Rectangle -->
+  <rect width="100%" height="100%" fill="white" />
+
+  <!-- Main Heading -->
+  <text x="20" y="40" font-family="Arial" font-size="30" font-weight="bold" fill="#000">
+    DECATHLON
+  </text>
+
+  <!-- Subheading -->
+  <text x="20" y="80" font-family="Arial" font-size="20" fill="#555">
+    Admin Panel
+  </text>
+
+  <!-- Profile Image -->
+  <image href='./nav-profile.jpeg' x="400" y="20" width="50" height="50" />
+
+  <!-- Arrow Image -->
+  <image href='./arrow.jpeg' x="460" y="35" width="30" height="30" />
+</svg>

@@ -1,0 +1,78 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; /* Reduced gap for a more compact layout */
+    padding: 20px; /* Added padding for better spacing */
+    background-color: #f8f8f8; /* Optional: Light background for distinction */
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Reduced gap for better alignment */
+}
+
+.footer-logo img {
+    width: 50px; /* Adjusted size for smaller icon */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.footer-logo p {
+    color: #383838;
+    font-size: 32px; /* Reduced font size for a better fit */
+    font-weight: 700;
+}
+
+.footer-links {
+    display: flex;
+    list-style: none;
+    gap: 20px; /* Reduced gap for a compact design */
+    color: #252525;
+    font-size: 18px; /* Adjusted font size */
+}
+
+.footer-links li {
+    cursor: pointer;
+    transition: color 0.3s ease; /* Add hover effect */
+}
+
+.footer-links li:hover {
+    color: #0073e6; /* Optional: Change color on hover */
+}
+
+.footer-social-icon {
+    display: flex;
+    gap: 15px; /* Reduced gap for alignment */
+}
+
+.footer-icons-container {
+    padding: 8px; /* Reduced padding for smaller icon containers */
+    background: #fbfbfb;
+    border: 1px solid #ebebeb;
+    border-radius: 4px; /* Rounded edges for better visuals */
+}
+
+.footer-icons-container img {
+    width: 24px; /* Set fixed width for icons */
+    height: 24px; /* Set fixed height for icons */
+}
+
+.footer-copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Reduced gap for compactness */
+    width: 100%;
+    color: #1a1a1a;
+    font-size: 16px; /* Reduced font size */
+}
+
+.footer-copyright hr {
+    width: 80%;
+    border: none;
+    height: 2px; /* Reduced height for thinner line */
+    background: #c7c7c7;
+    margin: 0; /* Remove extra margin */
+}
