@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-shadow: 0 1px 3px -2px #000;
+    margin-bottom: 1px;
+    background: white;
+  }
+  .nav-left {
+    display: flex;
+    align-items: center;
+  }
+  .nav-logo {
+    width: 100px; /* Adjust size as needed */
+    margin-right: 20px;
+  }
+  .nav-titles {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-main-title {
+    margin: 0;
+    font-size: 24px; /* Adjust size as needed */
+  }
+  .nav-sub-title {
+    margin: 0;
+    font-size: 16px; /* Adjust size as needed */
+    color: gray; /* Adjust color as needed */
+  }
+  .nav-right {
+    display: flex;
+    align-items: center;
+  }
+  .nav-profile {
+    width: 100px; /* Adjust size as needed */
+    margin-right: 10px;
+  }
+  .nav-arrow {
+    width: 50px; /* Adjust size as needed */
+  }
+  
