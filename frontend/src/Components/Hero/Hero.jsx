@@ -1,7 +1,7 @@
 import React from 'react'
 import './Hero.css'
 import hand_icon from '../Assets/hand_icon.jpeg'
-import arrow_icon from '../Assets/arrow.jpeg'
+import arrow_icon from '../Assets/breadcrumsarr.jpeg'
 import hero_icon from '../Assets/actor.jpeg'
 
 
