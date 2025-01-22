@@ -18,7 +18,7 @@ app.use(cors());
 
 
 // Database connection (if applicable)
-mongoose.connect("mongodb+srv://sivaranjaniede:qsLgMGTf2UmZe4h8@cluster0.r9vsv.mongodb.net/decathlon");
+mongoose.connect("mongodbconnectionstring");
 
 // Configure Multer for file uploads
 const storage = multer.diskStorage({
